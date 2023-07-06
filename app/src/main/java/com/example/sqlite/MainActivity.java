@@ -57,7 +57,6 @@ public class MainActivity extends AppCompatActivity {
                     Toast.makeText(getApplicationContext(), "Please Fill input Field!", Toast.LENGTH_SHORT).show();
                 } else {
                     boolean stts;
-
                     mhsList = db.list();
                     if  (mhsList.size() >= 5) {
                         Toast.makeText(getApplicationContext(), "Data tidak boleh melebihi 5!", Toast.LENGTH_SHORT).show();
